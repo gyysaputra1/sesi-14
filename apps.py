@@ -5,7 +5,5 @@ class Settings(models.Model):
     value = models.CharField(max_length=255)
 
     def __str__(self):
-     return f"{self.name}: {self.value}"
+        return f"{self.name}: {self.value}"
 
-# ini komentar percobaan
-print(">>> MODELS.PY TERBACA <<<")
